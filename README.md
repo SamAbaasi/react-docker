@@ -8,8 +8,6 @@ This project is a **production-ready React app** built with **Vite**, **TypeScri
 - 🌐 Production server using **Nginx**  
 - 🚀 CI/CD and container-friendly  
 
----
-
 ## 📦 Tech Stack
 
 - [React](https://reactjs.org/)
@@ -18,13 +16,11 @@ This project is a **production-ready React app** built with **Vite**, **TypeScri
 - [Docker](https://www.docker.com/)
 - [Nginx](https://nginx.org/)
 
----
-
 ## 📁 Project Structure
-
-vite-react-ts-app/
-├── public/
-│ └── favicon.svg
+ ```
+react-docker/ 
+├── public/ 
+│ └── favicon.svg 
 ├── src/
 │ ├── App.tsx
 │ ├── main.tsx
@@ -36,14 +32,7 @@ vite-react-ts-app/
 ├── tsconfig.json
 ├── vite.config.ts
 └── package-lock.json
-
-
----
-
-## 🚀 Scripts
-
-
----
+```
 
 ## 🚀 Scripts
 
@@ -55,7 +44,6 @@ vite-react-ts-app/
 | `npm run lint`     | Run ESLint                             |
 | `npm run type-check` | Run TypeScript without emitting files |
 
----
 
 ## 🐳 Docker Instructions
 
